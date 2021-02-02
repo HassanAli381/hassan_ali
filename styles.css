@@ -5,6 +5,16 @@ body {
 }
 */
 
+p[class='lead'] {
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif;
+
+}
+
+/*
 .loader {
     position:fixed;
     top: 0;
@@ -34,6 +44,8 @@ body {
         opacity: 0;
     }
 }
+*/
+
 
                         /*Scroll to top*/
 .scroll-to-top{
@@ -66,17 +78,6 @@ body {
 
 }
 
-
-
-
-p[class='lead'] {
-    font-family: 'Yusei Magic', sans-serif;
-
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Fraunces', serif;
-
-}
 
 .ex-one {
     margin-top: 20px;
@@ -168,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 25px;
 }
-.about p[class='lead'] {
+.about p[class="lead"] {
     color: #333;
 }
 

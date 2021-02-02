@@ -63,7 +63,7 @@ toTopButton.onclick = function () {
     document.body.scrollTop  = 0;
     document.documentElement.scrollTop = 0;
 }
-
+/*
                         //preloader
 var loader = document.querySelector('.loader');
 
@@ -71,7 +71,7 @@ window.addEventListener('load', function vanish(){
     loader.classList.add('disappear');
 
 })
-
+*/
 
 
 
