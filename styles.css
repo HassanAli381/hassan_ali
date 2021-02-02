@@ -1,0 +1,799 @@
+                        /*Bootstrap Course*/
+/*
+body {
+    height: 4000px;
+}
+*/
+
+                        /*Scroll to top*/
+.scroll-to-top{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #dc3545;
+    cursor: pointer;
+    color: #fff;
+}
+
+.scroll-to-top.arrow-up {
+    margin: auto;
+    text-align: center;
+}
+.scroll-to-top.arrow-up i{
+    margin:5px auto;
+    text-align: center;
+}
+.scroll-to-top .arrow-up button {
+    background: transparent;
+    border: none;
+    margin:6px 4px 6px 4px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+
+}
+
+
+
+
+p[class='lead'] {
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif;
+
+}
+
+.ex-one {
+    margin-top: 20px;
+    background-color: #EEE;
+}
+.container:nth-of-type(3) {
+    display: flex;
+    margin-top: 30px;
+    background-color: #EEE;
+}
+
+.container .artic {
+    margin-left: 55px;
+}
+                        /*navbar*/
+
+.bg-dark {
+    padding: 15px;
+}
+
+                        /*Navbar links*/
+.navbar-nav {
+    margin-right: 40px;
+}
+
+                    /*The Website logo*/
+.navbar-dark .navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.2s all ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+    transition: 0.2s all ease-in-out;
+}
+
+    /*Navbar links and dealing with the focus and hover*/
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    transition: 0.2s all ease-in-out;
+    margin-right: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    transition: 0.2s all ease-in-out;
+
+}
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #000;
+    transition: 0.2s all ease-in-out;
+
+}
+
+
+                    /*Drop Down Menu*/
+.dropdown-menu {
+    background-color: #212529;
+    color: #eee;
+
+}
+.dropdown-item {
+    color: #fff;
+    background-color: #212529;
+    padding: 0.75rem 1.3rem;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #000;
+    transition: 0.2s all ease-in-out;
+}
+.navbar .dropdown-menu li {
+    width: 100%;
+}
+
+/*//////////////////////////////////////////////////////////*/
+                        /*Carousal*/
+.w-100 {
+    height: 600px;
+}
+
+.carousel .rest-of-the-text {
+    display: none;
+}
+.carousel .carousel-caption {
+    margin-bottom: 35px;
+}
+.carousel-caption {
+    background-color: rgba(3,3,3,0.3);
+}
+
+                        /*About*/
+.about {
+    text-align: center;
+    padding: 25px;
+}
+
+                        /*features*/
+.features {
+    background-color: #EEE;
+    padding: 25px;
+    text-align: center;
+}
+.features .feat {
+    margin: 15px 0 10px 0;
+}
+.features i {
+    color: #333;
+}
+.features i::before {
+    font-size: 1.2rem;
+    font-family: "Font Awesome 5 Free";
+    content: "\f095";
+}
+
+.calculator {
+    font-size: 1.2rem;
+    text-align: center;
+    height:550px;
+
+}
+
+.calculator .row {
+    border: 2px solid #333;
+    width:30%;
+    text-align: center;
+    
+}
+
+.calculator #res {
+    height:40px;
+    background-color: #EEE;
+}
+
+.calculator button {
+    width: 55px;
+    margin: 4px 2px 4px 2px;
+    background-color:#EEE;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+                        /*Testimonials*/
+.testimonials {
+    padding: 15px;
+    background-color: #d4d1d1;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#333;
+    height: 500px;
+    text-align: center;
+}
+
+.testimonials .carousel-indicators {
+    top: 250px;
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding: 15px;
+
+}
+
+
+.testimonials .carousel-indicators li {
+    width: 130px;
+    height: 145px;
+    border-radius: 50%;
+    text-indent: 0;
+    overflow: hidden;
+    opacity: 0.4;
+    transition: 0.8s all ease-in-out;
+
+}
+
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+
+}
+
+.testimonials .carousel-indicators li.active {
+    opacity: 1;
+
+}
+
+                        /*Our Team*/
+.team {
+    background: url(images/grant-ritchie-x1w_Q78xNEY-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 650px;
+}
+.team .people {
+    background-color: rgba(2, 2, 2, 0.7);
+    min-height: 650px;
+    color: #fff;
+    padding: 30px;
+}
+
+.team .people img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0 20px 0;
+}
+
+.team i {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 10px;
+    transition: 0.2s all ease-in-out;
+
+}
+.team i:nth-of-type(1):hover {
+    color: #3b5998;
+    transition: 0.2s all ease-in-out;
+    transform: scale(1.1 , 1.1);
+    cursor: pointer;
+}
+
+.team i:nth-of-type(2):hover {
+    color: #1da1f2;
+    transition: 0.2s all ease-in-out;
+    transform: scale(1.1 , 1.1);
+    cursor: pointer;
+}
+
+
+.team i:nth-of-type(3):hover {
+    color: #ff0000;
+    transition: 0.2s all ease-in-out;
+    transform: scale(1.1 , 1.1);
+    cursor: pointer;
+}
+
+
+.team i:nth-of-type(4):hover {
+    color: #0a66c2;
+    transition: 0.2s all ease-in-out;
+    transform: scale(1.1 , 1.1);
+    cursor: pointer;
+}
+
+
+
+                            /*Prices*/
+.prices {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: #EEE;
+
+}
+
+.prices .container .row > div {
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.prices .container .row div:nth-of-type(1) {
+    background-color: #FFF;
+}
+
+.prices .container .row div:nth-of-type(3) {
+    background-color: #FFF;
+}
+
+.prices .container .row div h6 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(94, 91, 94);
+    margin: auto;
+    line-height: 75px;
+    transition-duration: 0.5s;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.prices .container .row div:hover h6 {
+    transform: scale(1.2,1.2) rotate(360deg);
+    border: 2px solid teal;
+} 
+
+
+                        /*Statistics*/
+.statistics {
+    background: url(images/dennis-buchner-elk8DRDVYLI-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 400px;
+    color: #B6B5B5;
+    text-align: center;
+    transition: 0.5s all ease-in-out;
+
+}
+
+.statistics .stats-div {
+    background-color: rgba(2, 2, 2, 0.7);
+    min-height: 400px;
+    padding:35px 5px 35px 5px;
+    transition: 0.5s all ease-in-out;
+
+}
+.statistics i {
+    margin-bottom: 15px;
+}
+.statistics > div p:nth-of-type(2) {
+    font-size: 1.2rem;
+}
+.statistics h2 {
+    margin-bottom: 35px;
+}
+
+
+.statistics .stats-div .container .row > div:hover {
+    color: #FFF;
+}
+
+.statistics .stats-div .container .row > div:hover i{
+    transform: rotate(360deg);
+    transition: 0.7s all ease-in-out;
+
+}
+                    /*subscribe*/
+.subscribe {
+    font-size: 1.2rem;
+    background-color: #c2c2c2;
+    padding: 35px 5px 50px 5px;
+}
+.subscribe .input-group {
+    margin-bottom: 20px;
+}
+
+
+                        /*Our Skills*/
+.our-skills {
+    padding: 15px;
+    text-align: center;
+    background-color: #B6B5B5;
+
+}
+.our-skills h2 {
+    margin: 10px 0 25px 0;
+}
+.our-skills .progress .progress-bar {
+    font-size: 0.9rem;
+}
+
+.our-skills .progress {
+    margin:8px 5px 20px 0;
+    height: 22px;
+
+}
+.our-skills .my-skill-bar-prgress {
+    margin-bottom: 20px;
+}
+
+                        /* Contact Us */
+.contact-us {
+    background: url(images/contact-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 400px;
+    
+}
+.contact-us h2{
+    margin-bottom: 25px;
+}
+.contact-us .contact {
+    background-color: rgba(7,7,7,0.7);
+    min-height: 400px;
+    padding: 25px;
+    color: #DDD;
+    transition: 0.4s all ease-in-out;
+
+}
+
+.contact-us .contact .form-groub {
+    margin: 8px 5px 15px 3px;
+}
+
+.contact-us label, li{
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.contact-us label {
+    margin-right: 8px;
+}
+.contact-us .contact .row i:nth-of-type(3) {
+    margin-left: -15px;
+}
+.contact-us .contact .row .info ul div:hover i{
+    transition: 0.4s all ease-in-out;
+    transform: scale(1.3,1.3) rotate(360deg);
+}
+
+.contact-us .sec-mapmarker {
+    margin: -14px 0 14px 0;
+
+}
+
+
+
+/*
+                    Dark Mode for the form and the inputs
+.contact-us .contact input[type="text"],
+.contact-us .contact textarea {
+    background-color: rgba(2,2,2,0.4);
+    color: #fff;
+    border: none;
+}
+
+*/
+
+                        /*Map*/
+.map{
+    background: url(images/map.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+    color:#fff;
+}
+.map .my-map{
+    background-color: rgba(2, 2, 2, 0.7);
+    min-height: 800px;
+    padding-top: 50px;
+    transition: 0.4s all ease-in-out;
+}
+
+.map .loc-headding{
+    position: absolute;
+    top: 41%;
+    left: 38%;
+}
+
+.map .loc-button{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+  
+    /*
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color: #dc3545;
+    */
+}
+
+.map i{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+                            /*Footer*/
+.footer {
+    padding: 25px;
+    background-color: #333;
+    color: #aaa;
+
+}
+
+
+.footer .site-links {
+    overflow: hidden;
+    transition: 0.2s all ease;
+}
+.footer .site-links li {
+    width: 33.3333%;
+    float: left;
+    margin: 10px 3px 8px 3px; 
+}
+.footer .site-links li:hover{
+    color: #fff;
+    transition: 0.1s all ease;
+    cursor: pointer;
+
+}
+
+.footer .social-links {
+    font-size:2rem;
+    margin: 7px 2px 5px 3px;
+    transition: 0.3s all ease;
+}
+.footer .social-links li {
+    margin: 7px 7px 5px 7px;
+}
+.footer .social-links li:nth-of-type(1):hover{
+    color: #3b5998;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.footer .social-links li:nth-of-type(2):hover{
+    color: #1da1f2;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.footer .social-links li:nth-of-type(3):hover{
+    color:#cb3c84;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.footer .social-links li:nth-of-type(4):hover{
+    color: #e60023;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+
+.footer .articles .bg-secondary {
+    background-color: #242627 !important;
+    margin: 5px 8px 10px 8px;
+}
+.footer .articles .bg-secondary p{
+    font-size: 1rem;
+}
+
+.copy {
+    background-color: #222;
+    padding: 25px 0;
+    color: #aaa;
+    font-size: 1.2rem;
+}
+.copy p span {
+    cursor: pointer;
+}
+/***************************************************************/
+
+                    /*Media Query*/
+                        /*Carousal*/
+@media screen and (max-width:650px) {
+    .w-100 {
+        width: 100%;
+        height: 385px;
+    }
+    
+}
+@media (min-width: 768px){
+.d-md-block {
+    display: none;
+    }
+}
+@media (max-width:768px) {
+    .carousel .carousel-indicators {
+        display: none;
+    }
+}
+
+                            /*About*/
+@media (max-width:768px) {
+    .about h3{
+        margin-bottom: 15px;
+        font-size: 1.6rem;
+    } 
+    .about p[class='lead'] {
+        font-size: 1.1rem;
+
+    }
+}
+
+                            /*Featureas*/
+@media (max-width:768px) {
+    .features .row > div {
+        background-color: #fff;
+        padding: 10px 5px 10px 5px;
+        border-radius:10px;
+    }
+    .features .lead {
+        font-size: 1.1rem;
+    }
+}
+
+                        /*Testimonials*/
+@media (max-width:768px) {
+    .testimonials .container h2 {
+        margin: 8px 4px 20px 4px;
+    }
+    .testimonials .carousel-indicators {
+        display: block;
+    }
+    .testimonials .carousel-indicators li {
+        width: 90px;
+        height: 100px;
+    }
+}
+@media (max-width:385px) {
+    .testimonials .carousel-indicators li {
+        width: 80px;
+        height: 89px;
+    }
+}
+
+@media (max-width:350px) {
+    .testimonials .carousel-indicators li {
+        width: 65px;
+        height: 75px;
+    }
+}
+
+                        /*Our Team*/
+@media (max-width:768px){
+    .team .people .row > div img {
+        width: 160px;
+        height: 168px;
+    }
+    .team .people .row 
+    .person-one, .person-two, .person-three, .person-four {
+        margin: 10px 5px 10px 5px;
+    }
+}
+
+                    /*Palnes*/
+
+@media (max-width:991px) and (min-width:768px) {
+    .prices .container .row > div:nth-of-type(even) {
+        background-color: #fff;
+        margin-left: 30px;
+        width: 45%;
+    }
+}
+
+@media (max-width:768px) {
+    .prices .container .row > div{
+
+        background-color: #FFF;
+        width: 70%;
+        margin: 15px auto;    
+    }
+}
+
+
+@media (max-width:768px) {
+    .map .loc-headding {
+        left: 32%;
+    }
+}
+@media (max-width:380px) {
+    .map .loc-headding {
+        left: 26%;
+    }
+    .map .loc-button {
+        left: 42%;
+    }
+} 
+                    /*copy*/
+@media (max-width:521px){
+    .copy p {
+        font-size: 1.1rem;
+    } 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        /*Contact*/
+@media (max-width:768px) {
+    .contact-us .contact .row .info {
+        display: none;
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

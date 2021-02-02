@@ -1,0 +1,24 @@
+/*Border*/
+.option-box .color-option {
+    border: 4px solid #2121ce;
+}
+                        /*BackGround Color*/
+.navbar-dark .navbar-nav .nav-link:focus,
+.dropdown-item:hover, .dropdown-item:focus ,
+#cog-icon
+{
+    background-color: #2121ce;
+}
+
+                        /*Color*/
+.about h3 span,
+.about p[class = 'lead'],
+.copy p span,
+.navbar .navbar-brand span,
+.footer h3 ,
+.contact-us .contact .row .info ul div:hover i,
+.navbar-dark .navbar-brand:hover ,
+.navbar-dark .navbar-nav .nav-link:hover 
+{
+    color:#2121ce;
+}
