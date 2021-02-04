@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Hassan Ali</title>
         <meta charset="utf-8"> 
@@ -9,19 +9,17 @@
                     <!--Responsive Meta-->
         <meta name="viewport" content="width=device-width , initial-scale=1.0"> 
                
-        <link rel="stylesheet" href="BootStrap Editing.css">
                     <!--BootStrap Css Style-->
         <link rel="stylesheet" href="BootStrap Files/css/bootstrap.css">
                     <!--Font Awe Some -->               
         <link rel="stylesheet" href="Font Awesome/fontawesome.min.css"> 
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
                        <!--Google Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600&family=Yusei+Magic&display=swap" rel="stylesheet">
         
-              
-
+                        <!--Animate.css-->      
+        <link rel="stylesheet" href="animate.css/animate.min.css">                        
                         <!--My Css Style-->
         <link rel="stylesheet" href="default-theme.css">
         <link rel="stylesheet" href="styles.css">
@@ -30,7 +28,7 @@
 <body>
 
                             <!--Scroll top-->
-<section class="scroll-to-top" id="scroll-top-top">
+<section class="scroll-to-top wow animate__rotateIn" id="scroll-top-top" data-wow-duration="1.5s" data-wow-delay="2s">
   <div class="arrow-up" id="arrow-up">
     <button id="to-top-button">
       <i class="fas fa-arrow-up fa-2x"></i>
@@ -61,10 +59,10 @@
               Services
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Web Development</a></li>
-              <li><a class="dropdown-item" href="#">Web Hosting</a></li>
+              <li><a class="dropdown-item" href="#prices">Web Development</a></li>
+              <li><a class="dropdown-item" href="#team">Web Hosting</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+              <li><a class="dropdown-item" href="#my-skills">Graphic Design</a></li>
             </ul>
           </li>
 
@@ -153,7 +151,7 @@
 </div>
 </section>
                           <!--About-->
-<section class="about" id="about">
+<section class="about wow animate__lightSpeedInLeft" id="about" data-wow-duration="2s" data-wow-offset="300">
   <div class="container">
     <h3>Meet Our New Version Of <span>Hassan Ali WebSite</span></h3>
     <p class="lead">“Hello We introduce a professional Service for your bussnies and provide a Experienced SoftWare Engineers for your Service With <span><b>Hassan Ali </b>WebSite</span>”</p>
@@ -166,17 +164,17 @@
     <h2>What Our Clients Say</h2>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
+        <li class="wow animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-offset="315"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
           <img src="images/mans-hassan.jpg" alt="ddd">
         </li>
-        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+        <li class="wow animate__fadeInDown" data-wow-duration="1.5s" data-wow-offset="315"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
           <img src="images/person-4.jpeg" alt="ddd">
         </li>
-        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+        <li class="wow animate__fadeInRight" data-wow-duration="1.5s" data-wow-offset="315" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
           <img src="images/moh.jpg" alt="ddd">
         </li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner wow animate__fadeInUp"  data-wow-duration="1.5s" data-wow-offset="295">
         <div class="carousel-item active">
           <p class="lead">“this website provided us the ability to track unique events and segment who the users are and what each user is doing. Google Analytics doesn’t allow that.”</p>
           <h2>Eng : Hassan ALi</h2>
@@ -197,13 +195,14 @@
     </section>
 
                         <!--Our Team-->
-<section class="team text-center"> 
+<section class="team text-center" id="team"> 
   <div class="people">
     <div class="container">
       <h2>Meet Our Team</h2>
         <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="person-one">
+        
+          <div class="person-one wow animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-offset="350">
             <img src="images/person-2.jpeg">
             <h4>Gennifer Abrozi</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -211,11 +210,12 @@
             <i class="fab fa-twitter"></i>
             <i class="fab fa-youtube"></i>
             <i class="fab fa-linkedin"></i>
-
           </div>
+
         </div>
+        
         <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="person-two">
+          <div class="person-two wow animate__fadeInDown"  data-wow-duration="1.5s" data-wow-offset="350">
             <img src="images/person-3.jpeg">
             <h4>William Wallas</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -223,24 +223,23 @@
             <i class="fab fa-twitter"></i>
             <i class="fab fa-youtube"></i>
             <i class="fab fa-linkedin"></i>
-
-
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="person-three">
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="person-three wow animate__fadeInUp"  data-wow-duration="1.5s" data-wow-offset="350">
           <img src="images/model.jpg">
           <h4>Micheal Scofeald</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-      <i class="fab fa-facebook"></i>    
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-youtube"></i>
-      <i class="fab fa-linkedin"></i>
-
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          <i class="fab fa-facebook"></i>    
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-linkedin"></i>
         </div>
       </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="person-four">
+      
+      <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="person-four wow animate__fadeInRight"  data-wow-duration="1.5s" data-wow-offset="350">
             <img src="images/grem.jpg">
             <h4>Monica Donfan</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -248,25 +247,24 @@
             <i class="fab fa-twitter"></i>
             <i class="fab fa-youtube"></i>
             <i class="fab fa-linkedin"></i>
-
           </div>
         </div>
+      
       </div>
         </div>
       </div>
     </div>
   </div>
-
 </section>
 
                             <!--Prices-->
-<section class="prices">
+<section class="prices" id="prices">
   <div class="container">
     <h2>Our Planes</h2>
     <br>
     <div class="row">
       
-      <div class="price-box col-lg-3 col-md-6 col-sm-12">
+      <div class="price-box col-lg-3 col-md-6 col-sm-12 wow animate__fadeInLeft" data-wow-duration="1.5s" data-wow-offset="335">
         <h3 class="text-info">Hosting</h3>
         <h6 class="center-block">20$</h6>
         <br/>
@@ -283,10 +281,9 @@
           <br/>
         </ul>
         <button type="button" class="btn btn-info">Buy Now</button>
-
       </div>
 
-      <div class="price-box col-lg-3 col-md-6 col-sm-12 plans">
+      <div class="price-box col-lg-3 col-md-6 col-sm-12 plans wow animate__fadeInUp" data-wow-duration="1.5s" data-wow-offset="335">
         <h3 class="text-danger">Vps</h3>
         <h6 class="center-block">75$</h6>
         <br/>
@@ -303,10 +300,9 @@
           <br/>
         </ul>
         <button type="button" class="btn btn-danger">Buy Now</button>
-
       </div>
 
-      <div class="price-box col-lg-3 col-md-6 col-sm-12 plans">
+      <div class="price-box col-lg-3 col-md-6 col-sm-12 plans wow animate__fadeInDown" data-wow-duration="1.5s" data-wow-offset="335">
         <h3 class="text-success">Dedicated</h3>
         <h6 class="center-block">40$</h6>
         <br/>
@@ -323,18 +319,16 @@
           <br/>
         </ul>
         <button type="button" class="btn btn-success">Buy Now</button>
-
       </div>
 
-      <div class="price-box col-lg-3 col-md-6 col-sm-12 plans">
+      <div class="price-box col-lg-3 col-md-6 col-sm-12 plans wow animate__fadeInRight" data-wow-duration="1.5s" data-wow-offset="335">
         <h3 class="text-primary">Cloud</h3>
         <h6 class="center-block">25$</h6>
         <br/>
         <ul class="list-unstyled">
           <li>space: 50Gb</li>
           <br/>
-          <li>Domains: .com -<br/
-            > .net</li>
+          <li>Domains: .com -<br/> .net</li>
           <br/>
           <li>DataBases</li>
           <br/>
@@ -356,25 +350,25 @@
     <div class="container">
       <h2>Our Main Statistics</h2>
       <div class="row">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6  wow animate__rollIn" data-wow-duration="1.5s" data-wow-offset="355">
           <i class="fas fa-users fa-5x"></i>
           <p>5,560</p>
           <p>Stasified Users</p>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6 wow animate__flipInX" data-wow-duration="1.5s" data-wow-offset="355">
           <i class="fas fa-shopping-cart fa-5x"></i>
           <p>4,885</p>
           <p>Shopping Time</p>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6  wow animate__flipInY" data-wow-duration="1.5s" data-wow-offset="355">
           <i class="fas fa-comment fa-5x"></i>
           <p>15,390</p>
           <p>Comment</p>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6  wow animate__rollIn" data-wow-duration="1.5s" data-wow-offset="355">
           <i class="fas fa-cog fa-5x"></i>
           <p>60,225</p>
           <p>Projects</p>
@@ -386,7 +380,7 @@
 </section>
                           
                     <!--Subscribe-->
-<section class="subscribe text-center">
+<section class="subscribe text-center wow animate__jackInTheBox" data-wow-duration="1.5s" data-wow-offset="363">
   <div class="container">
     <h2>Subscribe to our blog</h2>
     <br>
@@ -400,11 +394,11 @@
   </div>
 </section>
                   <!--Our Skills-->
-<section class="our-skills">
+<section class="our-skills" id="my-skills">
   <div class="container">
     <h2>My Skills</h2>
     <div class="row">
-      <div class="my-skill-bar-prgress col-md-5 col-md-offset-1">
+      <div class="my-skill-bar-prgress col-md-5 col-md-offset-1 wow animate__rotateIn" data-wow-duration="1.5s" data-wow-offset="368">
         <div class="skills-progress">
           <div class="progress">
             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%; background-color: #198754;">
@@ -432,7 +426,7 @@
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 wow animate__jackInTheBox" data-wow-duration="1.5s" data-wow-offset="363">
         <h3>About The Team</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         <button class="talk-with-professional btn btn-danger" type="button">Talk With a professional</button>
@@ -448,7 +442,7 @@
       <i class="fas fa-headphones fa-5x"></i>
       <h2>Contact Us</h2>
       <div class="row">
-        <div class="info col-md-6">
+        <div class="info col-md-6 wow animate__jackInTheBox" data-wow-duration="1.5s" data-wow-offset="365">
           <h4>Info</h4>
           <ul class="list-unstyled">
             <div class="first-phone">
@@ -478,7 +472,7 @@
           </ul>
         </div>
         
-        <div class="col-md-6"> 
+        <div class="col-md-6  wow animate__rotateIn" data-wow-duration="1.5s" data-wow-offset="365"> 
           <form class="text-center">
               <div class="form-groub">
                 <input type="text" class="form-control input-lg" placeholder="User Name">
@@ -502,7 +496,7 @@
 </section>
 
                             <!--Map-->
-<section class="map text-center">
+<section class="map text-center wow animate__fadeInUpBig" data-wow-duration="1.5s" data-wow-offset="365">
   <div class="my-map">
     <i class="fas fa-map-marker-alt fa-5x"></i>
     <h3 class="loc-headding">Check our location</h3>
@@ -514,7 +508,7 @@
 <section class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-sm-5">
+      <div class="col-sm-5 wow animate__backInLeft" data-wow-duration="1.5s" data-wow-offset="353">
         <h3>Site Map</h3>
         <ul class="list-unstyled site-links">
           <li>Home</li>
@@ -541,7 +535,7 @@
         </ul>
       </div>
 
-      <div class="articles col-sm-7 text-center">
+      <div class="articles col-sm-7 text-center wow animate__backInRight" data-wow-duration="1.5s" data-wow-offset="353">
         <h3 style="text-align: left;">Lastest Articles</h3>
         <div class="row text-center">
           <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
@@ -563,7 +557,7 @@
     </div>
   </div>
 </section>
-<div class="copy text-center">
+<div class="copy text-center wow animate__heartBeat" data-wow-duration="1.5s">
   <p>&copy; All Right Reserved to <span>Hassan Ali WebSite</span></p>
 </div>
 
@@ -572,7 +566,11 @@
         <script src="BootStrap Files/js/bootstrap.min.js"></script>
                     <!--Respond JS file-->
         <script src="BootStrap Files/js/respond.min.js"></script>
-                        <!--My JS File-->    
+                        <!--Wow.js-->
+        <script src="wow js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+
+                      <!--My JS File-->    
      <script src="script.js"></script>
     </body>
 </html>
